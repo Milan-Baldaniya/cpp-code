@@ -1,0 +1,28 @@
+#include<iostream>
+#include <iomanip>
+using namespace std;
+class swape{
+public:
+
+    int a,b;
+    void display(){
+    cout<<"enter number a:";
+    cin>>a;
+    cout<<"enter number b:";
+    cin>>b;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<"a after swapping :"<<a<<endl;
+    cout<<"b after swapping :"<<b<<endl;
+    }
+};
+
+int main()
+{
+    cout<<setw(23)<<"Milan Baldaniya"<<setw(3)<<endl;
+    cout<<setw(19)<<"22DCE003"<<setw(3)<<endl;
+    swape s;
+    s.display();
+    return 0;
+}
